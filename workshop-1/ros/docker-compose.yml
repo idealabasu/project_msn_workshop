@@ -1,0 +1,38 @@
+services:
+  ros1:
+    container_name: ros2-talker
+    build: ./build
+    hostname: ros-host2
+    domainname: test
+    networks:
+      network:
+        ipv4_address: 192.168.8.10
+    volumes:
+      - ./talker-shared:/root/shared
+    command: bash -c "source /opt/ros/humble/setup.bash && ros2 run demo_nodes_cpp talker"
+    restart: unless-stopped
+  ros2:
+    container_name: ros2-listener
+    build: ./build
+    hostname: ros-host
+    domainname: test
+    networks:
+      network:
+        ipv4_address: 192.168.8.11
+    volumes:
+      - ./listener-shared:/root/shared
+    command: bash -c "source /opt/ros/humble/setup.bash && ros2 run demo_nodes_cpp listener"
+    restart: unless-stopped
+
+networks:
+  network:
+    driver: ipvlan
+    driver_opts:
+      parent: wlp1s0
+      ipvlan-mode: l2
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.168.8.0/24
+          gateway: 192.168.8.1
+          ip_range: 192.168.8.0/24

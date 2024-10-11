@@ -1,0 +1,5 @@
+services:
+  my_container:
+    image: ubuntu:24.04
+    command: bash -c "touch test.txt && sleep infinity"
+
