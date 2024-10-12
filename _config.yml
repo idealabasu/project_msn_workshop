@@ -1,3 +1,5 @@
 title: MSN Robotics Workshop Series
 theme: minima
 show_downloads: false
+minima:
+  skin: dark
