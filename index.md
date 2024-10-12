@@ -1,3 +1,7 @@
+---
+title: Welcome
+---
+
 ## Workshops
 
 * [workshop 1](workshop-1) -- 10-04-2024
