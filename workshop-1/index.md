@@ -1,1 +1,1 @@
-[slides](workshop1.html)
+[slides](workshop.html)
