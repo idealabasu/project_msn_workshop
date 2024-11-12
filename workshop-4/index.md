@@ -2,12 +2,18 @@
 title: Workshop 4 Details
 ---
 
-Friday, Nov 8  
-Polytechnic Campus  
-Peralta 135  
-1-2pm  
+* [Slides](workshop.html)
+* Examples
+    * [Example 1: OLED](https://github.com/idealabasu/project_msn_workshop/tree/main/workshop-4/project1-i2c-ssd1306)
+    * [Example 2: BNO085 IMU](https://github.com/idealabasu/project_msn_workshop/tree/main/workshop-4/project2-wifi)
+    * [Example 3: ESPNow](https://github.com/idealabasu/project_msn_workshop/tree/main/workshop-4/project3-espnow)
+    * [Example 4: Microdot](https://github.com/idealabasu/project_msn_workshop/tree/main/workshop-4/project4-microdot)
 
-for any questions, please contact me, <danaukes@asu.edu>
+## Videos
 
+### Screen Video
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uGENBKzxiYE?si=kPLrrS92VBQ-X-oA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdLH4jtmYiS0WNW6m0mTPNqoWN_Q-DsR_Nf98M7H5OF0odmjA/viewform?embedded=true" width="640" height="858" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+### Room Video
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cabzaQgI-h8?si=lH4EWwlNVB9Yj-Oq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
