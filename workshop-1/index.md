@@ -3,7 +3,7 @@ title: Workshop 1 Details
 ---
 
 * [slides](workshop.html)
-* [code](https://github.com/idealabasu/project_msn_workshop/tree/main/workshop-1)
+* [code](https://github.com/idealabasu/docker_examples)
 * [video](https://youtu.be/OOA8XUIpNlw?feature=shared)
 
 ## Videos

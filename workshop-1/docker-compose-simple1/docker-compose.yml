@@ -1,6 +1,0 @@
-services:
-  my_container:
-    image: test1
-    build: .
-    command: bash -c "touch test.txt && sleep infinity"
-
